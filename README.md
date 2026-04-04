@@ -10,7 +10,7 @@ Code accompanying the research article.
 <h2>Overview</h2>
 
 <p>
-This repository contains our implementation of the <b>Nussinov algorithm</b> together with several related approaches and additional GPU code.
+This repository contains our implementation and experimental study of the <b>Nussinov algorithm</b> together with several related approaches and additional GPU code.
 </p>
 
 <ul>
@@ -18,6 +18,23 @@ This repository contains our implementation of the <b>Nussinov algorithm</b> tog
   <li><code>npdp/</code> – additional methods and baselines</li>
   <li><code>gpu/</code> – CUDA implementation</li>
 </ul>
+
+<hr>
+
+<h2>Experimental Data</h2>
+
+<p>
+The file <code>experimental_study.xls</code> contains all experimental results used in:
+</p>
+
+<ul>
+  <li>Tables 1–5</li>
+  <li>Figure 2</li>
+</ul>
+
+<p>
+This file includes the complete dataset required to reproduce the reported results.
+</p>
 
 <hr>
 
