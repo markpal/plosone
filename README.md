@@ -106,8 +106,8 @@ For the PS4R and PST4R implementations, please contact the author:
   <b>Ingrid Kamga</b><br>
   <a href="mailto:xingridkamga@gmail.com">xingridkamga@gmail.com</a>
 </p>
-A Parallel Tiled and Sparsified Four-Russians Algorithm for Nussinov's RNA Folding, Tchendji et al.
-IEEE/ACM Trans Comput Biol Bioinform. 2023
+A Parallel Tiled and Sparsified Four-Russians Algorithm for Nussinov's RNA Folding, Tchendji et al.<br>
+IEEE/ACM Trans Comput Biol Bioinform. 2023<br>
 <p>
 Related files are available in:
 </p>
