@@ -1,0 +1,7 @@
+./a.out cpus size method
+
+1 - oryginal
+2 - pluto
+3 - traco
+4 - transpose
+5 - dapt
