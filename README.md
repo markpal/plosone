@@ -1,9 +1,10 @@
-<h1 align="center">Nussinov Implementations</h1>
+<h1 align="center">
+Cache-Efficient and Vectorized Parallel Dynamic Programming for RNA Folding
+</h1>
 
 <p align="center">
-  Reference implementations and comparison baselines for the Nussinov algorithm.
+Code accompanying the research article.
 </p>
-
 <hr>
 
 <h2>Overview</h2>
