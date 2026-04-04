@@ -3,7 +3,7 @@ Cache-Efficient and Vectorized Parallel Dynamic Programming for RNA Folding
 </h1>
 
 <p align="center">
-Code accompanying the research article.
+Codes and results accompanying the research article.
 </p>
 <hr>
 
