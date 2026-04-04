@@ -53,8 +53,8 @@ It can be compiled with vectorization support using:
   <li><code>clang++</code></li>
   <li><code>g++</code></li>
 </ul>
-For example:
-icpx -O3 -qopenmp -xCORE-AVX512 -qopt-report=max -qopt-report-phase=vec -qopt-report-file=vec_report.txt nussinov.cpp -o nussinov
+For example:<br>
+<code>icpx -O3 -qopenmp -xCORE-AVX512 -qopt-report=max -qopt-report-phase=vec -qopt-report-file=vec_report.txt nussinov.cpp -o nussinov</code>
 <h3>Configuration</h3>
 
 <ul>
