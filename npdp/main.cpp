@@ -62,7 +62,7 @@ int main(int argc, char *argv[]){
     if(kind==1)
        oryg();
     if(kind==4)
-       tstile();
+       li();
 
     if(kind==3)
        tilecorr();
