@@ -23,7 +23,7 @@ int N;
 
 #include "library.h"
 #include "oryg.h"
-#include "tstile.h"
+#include "transpose.h"
 #include "tilecorr.h"
 #include "pluto.h"
 #include "dapt.h"
