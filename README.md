@@ -18,7 +18,7 @@ This repository contains our implementation and experimental study of the <b>Nus
   <li><code>experimental_study.xlsx</code> - Exprimental study</li>
   <li><code>s4r-nussinov-pack.zip</code> - PS4R and PST4R implementations</li>
   <li><code>npdp/</code> – additional methods and baselines</li>
-  <li><code>gpu/</code> – CUDA implementation</li>
+  <li><code>cuda/</code> – CUDA implementation</li>
 
 </ul>
 
