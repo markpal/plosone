@@ -91,7 +91,7 @@ See <code>info.txt</code> for additional details.
 <h2>GPU version</h2>
 
 <p>
-The <code>cuda/</code> subdirectory contains the <b>CUDA version</b>. Use <code>nvcc</code> compiler with <code>-O3 -fopenmp.</code>
+The <code>cuda/</code> subdirectory contains the <b>CUDA version</b>. Use <code>nvcc</code> compiler with <code>-O3 -fopenmp</code>.
 </p>
 
 <hr>
