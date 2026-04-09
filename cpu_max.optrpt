@@ -1,0 +1,178 @@
+Begin optimization report for: main
+
+LOOP BEGIN at nuss_best.cpp (62, 5)
+    remark #15521: Loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at nuss_best.cpp (76, 3)
+    remark #15521: Loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at nuss_best.cpp (81, 3)
+    remark #15541: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+    LOOP BEGIN at nuss_best.cpp (82, 5)
+    <Multiversioned v1>
+    <Multiversioned v1>
+    LOOP END
+
+    LOOP BEGIN at nuss_best.cpp (82, 5)
+    <Multiversioned v2>
+        remark #15319: Loop was not vectorized: novector directive used
+    LOOP END
+
+    LOOP BEGIN at nuss_best.cpp (82, 5)
+    <Multiversioned v2>
+        remark #15300: LOOP WAS VECTORIZED
+        remark #15305: vectorization support: vector length 4
+        remark #15389: vectorization support: unmasked unaligned unit stride store: [ /home/mpalkowski/nuss_best.cpp (83, 7) ] 
+        remark #15389: vectorization support: unmasked unaligned unit stride store: [ /home/mpalkowski/nuss_best.cpp (84, 7) ] 
+        remark #15475: --- begin vector loop cost summary ---
+        remark #15476: scalar cost: 4.000000 
+        remark #15477: vector cost: 1.046875 
+        remark #15478: estimated potential speedup: 3.281250 
+        remark #15309: vectorization support: normalized vectorization overhead 1.906250
+        remark #15488: --- end vector loop cost summary ---
+        remark #15447: --- begin vector loop memory reference summary ---
+        remark #15451: unmasked unaligned unit stride stores: 2 
+        remark #15474: --- end vector loop memory reference summary ---
+    LOOP END
+
+    LOOP BEGIN at nuss_best.cpp (82, 5)
+    <Remainder loop for vectorization>
+    LOOP END
+LOOP END
+
+LOOP BEGIN at nuss_best.cpp (87, 3)
+    remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+    remark #15346: vector dependence: assumed OUTPUT dependence between [ /home/mpalkowski/nuss_best.cpp (89, 5) ] and [ /home/mpalkowski/nuss_best.cpp (88, 5) ] 
+    remark #15346: vector dependence: assumed OUTPUT dependence between [ /home/mpalkowski/nuss_best.cpp (91, 7) ] and [ /home/mpalkowski/nuss_best.cpp (88, 5) ] 
+    remark #15346: vector dependence: assumed OUTPUT dependence between [ /home/mpalkowski/nuss_best.cpp (91, 7) ] and [ /home/mpalkowski/nuss_best.cpp (89, 5) ] 
+    remark #15346: vector dependence: assumed OUTPUT dependence between [ /home/mpalkowski/nuss_best.cpp (92, 7) ] and [ /home/mpalkowski/nuss_best.cpp (88, 5) ] 
+    remark #15346: vector dependence: assumed OUTPUT dependence between [ /home/mpalkowski/nuss_best.cpp (92, 7) ] and [ /home/mpalkowski/nuss_best.cpp (89, 5) ] 
+    remark #15346: vector dependence: assumed OUTPUT dependence between [ /home/mpalkowski/nuss_best.cpp (92, 7) ] and [ /home/mpalkowski/nuss_best.cpp (91, 7) ] 
+    remark #15346: vector dependence: assumed OUTPUT dependence between [ /home/mpalkowski/nuss_best.cpp (93, 7) ] and [ /home/mpalkowski/nuss_best.cpp (88, 5) ] 
+    remark #15346: vector dependence: assumed OUTPUT dependence between [ /home/mpalkowski/nuss_best.cpp (93, 7) ] and [ /home/mpalkowski/nuss_best.cpp (89, 5) ] 
+    remark #15346: vector dependence: assumed OUTPUT dependence between [ /home/mpalkowski/nuss_best.cpp (93, 7) ] and [ /home/mpalkowski/nuss_best.cpp (91, 7) ] 
+    remark #15346: vector dependence: assumed OUTPUT dependence between [ /home/mpalkowski/nuss_best.cpp (93, 7) ] and [ /home/mpalkowski/nuss_best.cpp (92, 7) ] 
+LOOP END
+
+LOOP BEGIN at nuss_best.cpp (114, 4)
+    remark #15521: Loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form from OpenMP specification
+LOOP END
+
+LOOP BEGIN at nuss_best.cpp (163, 5)
+
+    LOOP BEGIN at nuss_best.cpp (164, 9)
+
+        LOOP BEGIN at nuss_best.cpp (165, 13)
+            remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+            remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (166, 29) ] and [ /home/mpalkowski/nuss_best.cpp (166, 31) ] 
+            remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (166, 29) ] and [ /home/mpalkowski/nuss_best.cpp (166, 31) ] 
+            remark #15346: vector dependence: assumed FLOW dependence
+            remark #15346: vector dependence: assumed FLOW dependence
+        LOOP END
+
+        LOOP BEGIN at nuss_best.cpp (165, 13)
+        <Remainder loop>
+        LOOP END
+    LOOP END
+LOOP END
+
+LOOP BEGIN at nuss_best.cpp (174, 5)
+
+    LOOP BEGIN at nuss_best.cpp (175, 9)
+        remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria
+    LOOP END
+
+    LOOP BEGIN at nuss_best.cpp (175, 9)
+    <Remainder loop>
+    LOOP END
+LOOP END
+=================================================================
+
+Begin optimization report for: main.extracted
+
+LOOP BEGIN at nuss_best.cpp (134, 19)
+    remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+    remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (33, 13) ] and [ /home/mpalkowski/nuss_best.cpp (33, 13) ] 
+    remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (33, 13) ] and [ /home/mpalkowski/nuss_best.cpp (33, 13) ] 
+    remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (33, 11) ] and [ /home/mpalkowski/nuss_best.cpp (33, 13) ] 
+    remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (33, 11) ] and [ /home/mpalkowski/nuss_best.cpp (33, 13) ] 
+LOOP END
+
+LOOP BEGIN at nuss_best.cpp (115, 4)
+
+    LOOP BEGIN at nuss_best.cpp (122, 13)
+        remark #15541: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+        LOOP BEGIN at nuss_best.cpp (123, 17)
+            remark #15541: loop was not vectorized: outer loop is not an auto-vectorization candidate.
+
+            LOOP BEGIN at nuss_best.cpp (124, 13)
+                remark #15301: SIMD LOOP WAS VECTORIZED
+                remark #15305: vectorization support: vector length 32
+                remark #15389: vectorization support: unmasked unaligned unit stride load: [ /home/mpalkowski/nuss_best.cpp (129, 81) ] 
+                remark #15389: vectorization support: unmasked unaligned unit stride store: [ /home/mpalkowski/nuss_best.cpp (37, 0) ] 
+                remark #15475: --- begin vector loop cost summary ---
+                remark #15476: scalar cost: 22.000000 
+                remark #15477: vector cost: 2.234375 
+                remark #15478: estimated potential speedup: 9.765625 
+                remark #15309: vectorization support: normalized vectorization overhead 0.000000
+                remark #15570: using scalar loop trip count: 32
+                remark #15488: --- end vector loop cost summary ---
+                remark #15447: --- begin vector loop memory reference summary ---
+                remark #15450: unmasked unaligned unit stride loads: 1 
+                remark #15451: unmasked unaligned unit stride stores: 1 
+                remark #15474: --- end vector loop memory reference summary ---
+
+                LOOP BEGIN at nuss_best.cpp (126, 5)
+                    remark #15389: vectorization support: unmasked unaligned unit stride load: [ /home/mpalkowski/nuss_best.cpp (37, 8) ] 
+                    remark #15475: --- begin vector loop cost summary ---
+                    remark #15488: --- end vector loop cost summary ---
+                    remark #15447: --- begin vector loop memory reference summary ---
+                    remark #15450: unmasked unaligned unit stride loads: 1 
+                    remark #15474: --- end vector loop memory reference summary ---
+                LOOP END
+            LOOP END
+        LOOP END
+    LOOP END
+
+    LOOP BEGIN at nuss_best.cpp (144, 15)
+
+        LOOP BEGIN at nuss_best.cpp (145, 17)
+
+            LOOP BEGIN at nuss_best.cpp (146, 19)
+                remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+                remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (33, 11) ] and [ /home/mpalkowski/nuss_best.cpp (33, 13) ] 
+                remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (33, 11) ] and [ /home/mpalkowski/nuss_best.cpp (33, 13) ] 
+                remark #15346: vector dependence: assumed FLOW dependence
+                remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (33, 13) ] and [ /home/mpalkowski/nuss_best.cpp (33, 13) ] 
+            LOOP END
+
+            LOOP BEGIN at nuss_best.cpp (146, 19)
+            <Remainder loop>
+            LOOP END
+        LOOP END
+    LOOP END
+
+    LOOP BEGIN at nuss_best.cpp (132, 15)
+
+        LOOP BEGIN at nuss_best.cpp (133, 17)
+
+            LOOP BEGIN at nuss_best.cpp (139, 19)
+                remark #15344: Loop was not vectorized: vector dependence prevents vectorization
+                remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (33, 11) ] and [ /home/mpalkowski/nuss_best.cpp (33, 13) ] 
+                remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (33, 11) ] and [ /home/mpalkowski/nuss_best.cpp (33, 13) ] 
+                remark #15346: vector dependence: assumed FLOW dependence
+                remark #15346: vector dependence: assumed FLOW dependence between [ /home/mpalkowski/nuss_best.cpp (33, 13) ] and [ /home/mpalkowski/nuss_best.cpp (33, 13) ] 
+            LOOP END
+
+            LOOP BEGIN at nuss_best.cpp (139, 19)
+            <Remainder loop>
+            LOOP END
+        LOOP END
+    LOOP END
+LOOP END
+=================================================================
+
